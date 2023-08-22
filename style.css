@@ -1,0 +1,92 @@
+body {
+    display: flex;
+    padding: 0;
+}
+
+.player1, .player2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(194, 203, 200);
+    width: 50%;
+    height: 100vh;
+}
+
+.titreplayer {
+    font-size: 40px;
+    padding: 20px;
+}
+
+.newgame {
+    position: fixed;
+    display: flex;
+    font-size: 20px;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centrer le bouton */
+    padding: 20px 150px; /* Ajouter du remplissage au bouton */  
+}
+
+.newgame-button {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.rolldice {
+    position: fixed;
+    display: flex;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centrer le bouton */
+    padding: 20px 150px; /* Ajouter du remplissage au bouton */  
+}
+
+.rolldice-button {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.hold {
+    position: fixed;
+    display: flex;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centrer le bouton */
+    padding: 20px 150px; /* Ajouter du remplissage au bouton */  
+}
+
+.hold-button {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.dés {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: aliceblue;
+    padding: 10px;
+}
+
+.current {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10rem;
+}
