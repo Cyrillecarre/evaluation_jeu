@@ -14,11 +14,11 @@
             <p>PLAYER 1</p>
         </div>
         <div class="score">
-            <span id="score1">0</span>
+            <span id="score1" style="color: rgb(198, 92, 92); font-size: 70px;">0</span>
         </div>
         <div class="current">
             <p>Current</p>
-            <span id="current1">0</span>
+            <span id="current1" style="color: white; font-size: 40px;">0</span>
         </div>
     </div>
     
@@ -28,31 +28,33 @@
             <p>PLAYER 2</p>
         </div>
         <div class="score">
-            <span id="score2">0</span>
+            <span id="score2" style="color: rgb(198, 92, 92); font-size: 70px;">0</span>
         </div>
         <div class="current">
             <p>Current</p>
-            <span id="current2">0</span>
+            <span id="current2" style="color: white; font-size: 40px;">0</span>
         </div>
     </div>
     
     <span class="newgame">
-        <button class="newgame-button" type="button">
+        <button class="newgame-button" type="button" id="new-game-button">
         <i class="fa fa-circle-plus fa-2xl" style="color: #ff2f92; margin-right: 10px"></i>NEW GAME
         </button>
     </span>
-    <span class="dés">dés</span>
+    <span class="dés" id="dice">
+        <i class="fa fa-dice-one fa-2xl" style="color: rgb(198, 92, 92); font-size: 10rem;"></i>
+    </span>
 
     <span class="rolldice">
-        <button class="rolldice-button" type="button">
+        <button class="rolldice-button" type="button" id="roll-dice-button">
             <i class="fa fa-light fa-rotate fa-2XL" style="color: #ff2f92; margin-right: 10px"></i>ROLL DICE
         </button>
     </span>
     <span class="hold">
-        <button class="hold-button" type="button">
+        <button class="hold-button" type="button" id="hold-score-button">
             <i class="fa-regular fa-circle-down fa-2XL" style="color: #ff2f92; margin-right: 10px"></i>HOLD
         </button>
     </span>
-    
+    <script src="/script.js"></script>
 </body>
 </html>
