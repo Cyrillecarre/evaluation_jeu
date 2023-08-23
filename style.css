@@ -3,12 +3,30 @@ body {
     padding: 0;
 }
 
-.player1, .player2 {
+.player {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 5rem;
+    background-color: rgb(147, 185, 171);
+    width: 50%;
+    height: 100vh;
+}
+
+.player.active {
     background-color: rgb(194, 203, 200);
+}
+
+.player2.active {
+    background-color: rgb(194, 203, 200);
+}
+
+.player2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5rem;
+    background-color:rgb(147, 185, 171) ;
     width: 50%;
     height: 100vh;
 }
